@@ -1,43 +1,43 @@
 <img width="100%" src="https://res.cloudinary.com/dnqk2jlds/image/upload/f_auto,q_auto,w_1400/v1784892308/lms-assets/github-builder-banner.png" alt="Banner" />
 
-# DevOps Engineer
+# Data Science
 
-I am a DevOps Engineer who treats infrastructure as a product: versioned, tested, and observable. Most of my day is spent shortening the distance between a merged pull request and a safe production release — writing Terraform modules that teams can consume without reading the AWS docs, tuning Kubernetes autoscaling so services survive traffic spikes without over-provisioning, and building GitHub Actions and Jenkins pipelines that fail loudly in CI instead of quietly at 2 a.m. I have run blue/green and canary rollouts for services handling millions of requests a day, migrated hand-built EC2 fleets into reproducible EKS clusters, and cut cloud bills by finding the gap between what a workload requested and what it actually used.
+I'm a data scientist who works at the seam between messy production data and decisions people actually act on. Most of my time goes into supervised learning for churn, demand, and risk problems — gradient boosting and transformer fine-tuning where they earn their keep, plain logistic regression where they don't — plus the unglamorous work around it: point-in-time-correct feature pipelines, leakage audits, and calibration checks that keep a model honest after month three. I'm equally comfortable writing the SQL that defines a metric, the PyTorch training loop that models it, and the FastAPI service that serves it under a latency budget.
 
-I believe the best operations work is the work nobody notices, and that reliability comes from boring, repeatable systems rather than heroics. Every change should be reversible, every incident should end in a blameless write-up with a concrete action item, and every alert should be actionable — a pager that cries wolf is worse than no pager at all. I default to automating anything I have done manually twice, writing the runbook before I hand a system over, and giving developers self-service tooling so they own their deployments instead of filing tickets. Security and cost are not afterthoughts I bolt on at the end; they belong in the same pipeline as the tests.
+I believe a model is only as good as the decision it changes, so I start from the counterfactual: what would happen without this, and how would we know? That means baselines before architectures, holdout designs that survive contact with seasonality, and experiments that measure the business outcome rather than a proxy that flatters the model. I write down assumptions where reviewers can see them, prefer an interpretable model I can defend to a stakeholder over a half-point of AUC I can't, and treat monitoring and drift alerts as part of shipping rather than a follow-up ticket. Good analysis should also be legible — I aim for a chart and three sentences that a non-technical reader can repeat correctly.
 
 ### 🛠️ Tech Stack & Skills
 
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) ![Kubernetes](https://img.shields.io/badge/Kubernetes-6366f1?style=for-the-badge&logo=kubernetes&logoColor=white) ![Terraform](https://img.shields.io/badge/Terraform-6366f1?style=for-the-badge&logo=terraform&logoColor=white) ![Ansible](https://img.shields.io/badge/Ansible-6366f1?style=for-the-badge&logo=ansible&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-6366f1?style=for-the-badge&logo=aws&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-6366f1?style=for-the-badge&logo=github actions&logoColor=white) ![Jenkins](https://img.shields.io/badge/Jenkins-6366f1?style=for-the-badge&logo=jenkins&logoColor=white) ![Prometheus](https://img.shields.io/badge/Prometheus-6366f1?style=for-the-badge&logo=prometheus&logoColor=white) ![Grafana](https://img.shields.io/badge/Grafana-6366f1?style=for-the-badge&logo=grafana&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-6366f1?style=for-the-badge&logo=linux&logoColor=white) ![Bash](https://img.shields.io/badge/Bash-6366f1?style=for-the-badge&logo=bash&logoColor=white) ![NGINX](https://img.shields.io/badge/NGINX-6366f1?style=for-the-badge&logo=nginx&logoColor=white) 
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![R](https://img.shields.io/badge/R-6366f1?style=for-the-badge&logo=r&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit-learn-6366f1?style=for-the-badge&logo=scikit-learn&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-6366f1?style=for-the-badge&logo=tensorflow&logoColor=white) ![Anaconda](https://img.shields.io/badge/Anaconda-6366f1?style=for-the-badge&logo=anaconda&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-6366f1?style=for-the-badge&logo=aws&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) ![Jupyter](https://img.shields.io/badge/Jupyter-6366f1?style=for-the-badge&logo=jupyter&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-6366f1?style=for-the-badge&logo=pandas&logoColor=white) ![Apache Spark](https://img.shields.io/badge/Apache%20Spark-6366f1?style=for-the-badge&logo=apachespark&logoColor=white) ![MLflow](https://img.shields.io/badge/MLflow-6366f1?style=for-the-badge&logo=mlflow&logoColor=white) ![Airflow](https://img.shields.io/badge/Airflow-6366f1?style=for-the-badge&logo=airflow&logoColor=white) 
 
 ### 📊 GitHub Analytics
 
 <p align="center">
-  <img src="https://github-readme-stats-ten-kohl-77.vercel.app/api?username=alexrivera-ai&show_icons=true&theme=radial" alt="GitHub Stats" />
-  <img src="https://github-readme-stats-ten-kohl-77.vercel.app/api/top-langs/?username=alexrivera-ai&layout=compact&theme=radial" alt="Top Languages" />
+  <img src="https://github-readme-stats-ten-kohl-77.vercel.app/api?username=datacrumb&show_icons=true&theme=dark" alt="GitHub Stats" />
+  <img src="https://github-readme-stats-ten-kohl-77.vercel.app/api/top-langs/?username=datacrumb&layout=compact&theme=dark" alt="Top Languages" />
 </p>
 
 ### 💡 Expertise
-Infrastructure as Code — I design modular, reusable Terraform and Ansible codebases with remote state, policy checks, and plan-review gates so any environment can be rebuilt from scratch on demand.
+Predictive Modeling & Machine Learning — I build and tune supervised models for tabular, time-series, and text problems, from regularized GLMs and gradient-boosted trees to fine-tuned transformers, with disciplined cross-validation and probability calibration.
 
-Container Orchestration — I run production Kubernetes clusters end to end, covering Helm packaging, autoscaler tuning, network policies, resource quotas, and zero-downtime rollout strategies.
+Experimentation & Causal Inference — I design and analyze A/B tests, switchback trials, and quasi-experiments using CUPED, difference-in-differences, and uplift modeling to separate real treatment effects from selection and seasonality.
 
-CI/CD and Release Engineering — I build pipelines in GitHub Actions, GitLab CI, and Jenkins with parallel test stages, artifact caching, automated security scanning, and progressive delivery with fast rollback.
+Feature Engineering & Data Pipelines — I turn raw event and transactional data into reproducible, point-in-time-correct feature sets with SQL, Spark, and orchestrated Airflow DAGs that the same code can serve at training and inference time.
 
-Observability and Incident Response — I instrument systems with Prometheus, Grafana, and structured logging, define SLOs and error budgets, and turn noisy dashboards into a small set of alerts that map directly to runbooks.
+Model Deployment & Monitoring — I package models behind versioned APIs in Docker, track runs and artifacts in MLflow, and instrument drift, calibration, and latency alerts so degradation is caught before stakeholders notice it.
 
 ### 🚀 Featured Projects
-Terraform Landing Zone — Multi-account AWS landing zone built from reusable Terraform modules with Terragrunt, cutting new environment provisioning from three days of manual setup to a 25-minute pipeline run.
+Churn Uplift Model — Two-model uplift learner (T-learner over XGBoost) trained on 480K subscriber histories that raised retention-campaign ROI 31% while targeting half as many customers.
 
-Pipeline Accelerator — Rebuilt a monorepo GitHub Actions pipeline with dependency-aware job graphs, Docker layer caching, and matrix parallelism, dropping average CI time from 34 minutes to 6.
+Demand Forecasting — LightGBM ensemble with a seasonal-naive baseline across 1,200 SKU-store pairs cut weekly forecast MAPE from 18.4% to 9.7% and released $240K of safety stock.
 
-Karpenter Cost Tuning — Migrated an EKS platform to Karpenter with Spot-first node pools and right-sized resource requests, reducing monthly compute spend by 41% with no change to p99 latency.
+Feature Store — Airflow and Feast pipeline serving 340 point-in-time-correct features that reduced training-set assembly from 6 hours to 11 minutes and eliminated three known leakage paths.
 
-Progressive Delivery — Introduced Argo Rollouts canary deploys gated on Prometheus error-rate queries, auto-aborting 12 bad releases and lowering change failure rate from 18% to 3%.
+Sequential A/B Engine — mSPRT sequential testing with CUPED variance reduction shortened median experiment runtime from 21 to 12 days at unchanged 80% power and 5% false-positive rate.
 
-Observability Stack — Deployed a Prometheus, Thanos, and Grafana stack with SLO-based alerting that cut alert volume by 78% while reducing mean time to detect from 14 minutes to under 2.
+Ticket Triage NLP — Fine-tuned DistilBERT classifier over 90K support tickets reached 0.91 macro-F1 and auto-routes 62% of inbound volume at 34 ms p95 inference on CPU.
 
-Supply Chain Hardening — Replaced env-file secrets with Vault dynamic credentials and added Trivy scanning plus cosign image signing to every build, eliminating all long-lived static keys across 60 services.
+Fraud Anomaly Detection — Isolation Forest combined with graph-derived device and payee features catches 87% of confirmed payment fraud at a 0.4% false-positive rate, avoiding roughly $1.1M in annual losses.
 
 ### 🌐 Connect With Me
 
