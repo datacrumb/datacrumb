@@ -1,43 +1,43 @@
-<img width="100%" src="https://media.licdn.com/dms/image/v2/D4D22AQFdDNT0wF7QeA/feedshare-shrink_800/B4DZnTiPJ.HsAg-/0/1760190592128?e=2147483647&v=beta&t=TIR7gw8DvhVlNvj430XoNRE2szOwVuPZACPAR7O6mww" alt="Banner" />
+<img width="100%" src="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F4e0d816kuzyu700pdbjn.png" alt="Banner" />
 
-# Backend Developer
+# Data Science
 
-I build and operate the services that sit behind the product — HTTP and gRPC APIs, relational data models, background workers, and the message pipelines that connect them. Most of my work lives in Go, TypeScript, and Python on Postgres and Redis, deployed as containers on Kubernetes. I care about the parts users never see directly but always feel: a query plan that stops doing a sequential scan, an idempotency key that prevents a double charge, a migration that ships without a maintenance window. I am comfortable owning a service end to end, from the schema design conversation through the on-call page at 3 a.m.
+I'm a data scientist who works at the seam between messy production data and decisions people actually act on. Most of my time goes into supervised learning for churn, demand, and risk problems — gradient boosting and transformer fine-tuning where they earn their keep, plain logistic regression where they don't — plus the unglamorous work around it: point-in-time-correct feature pipelines, leakage audits, and calibration checks that keep a model honest after month three. I'm equally comfortable writing the SQL that defines a metric, the PyTorch training loop that models it, and the FastAPI service that serves it under a latency budget.
 
-I default to boring technology and reach for something new only when I can name the specific constraint it solves. Before I optimize anything I measure it, because the bottleneck is almost never where the team assumed it was. I treat API contracts as promises — versioned, backward compatible, and documented in the same pull request as the code — and I write tests that describe behavior rather than mirror implementation. Good backend work should be legible to the next engineer, observable when it misbehaves, and cheap enough to run that nobody has to argue about the bill.
+I believe a model is only as good as the decision it changes, so I start from the counterfactual: what would happen without this, and how would we know? That means baselines before architectures, holdout designs that survive contact with seasonality, and experiments that measure the business outcome rather than a proxy that flatters the model. I write down assumptions where reviewers can see them, prefer an interpretable model I can defend to a stakeholder over a half-point of AUC I can't, and treat monitoring and drift alerts as part of shipping rather than a follow-up ticket. Good analysis should also be legible — I aim for a chart and three sentences that a non-technical reader can repeat correctly.
 
 ### 🛠️ Tech Stack & Skills
 
-![Go](https://img.shields.io/badge/Go-6366f1?style=for-the-badge&logo=go&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white) ![NestJS](https://img.shields.io/badge/NestJS-6366f1?style=for-the-badge&logo=nestjs&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-6366f1?style=for-the-badge&logo=redis&logoColor=white) ![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-6366f1?style=for-the-badge&logo=apachekafka&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) ![Kubernetes](https://img.shields.io/badge/Kubernetes-6366f1?style=for-the-badge&logo=kubernetes&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-6366f1?style=for-the-badge&logo=aws&logoColor=white) ![Terraform](https://img.shields.io/badge/Terraform-6366f1?style=for-the-badge&logo=terraform&logoColor=white) 
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![R](https://img.shields.io/badge/R-6366f1?style=for-the-badge&logo=r&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit-learn-6366f1?style=for-the-badge&logo=scikit-learn&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-6366f1?style=for-the-badge&logo=tensorflow&logoColor=white) ![Anaconda](https://img.shields.io/badge/Anaconda-6366f1?style=for-the-badge&logo=anaconda&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-6366f1?style=for-the-badge&logo=aws&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) ![Jupyter](https://img.shields.io/badge/Jupyter-6366f1?style=for-the-badge&logo=jupyter&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-6366f1?style=for-the-badge&logo=pandas&logoColor=white) ![Apache Spark](https://img.shields.io/badge/Apache%20Spark-6366f1?style=for-the-badge&logo=apachespark&logoColor=white) ![MLflow](https://img.shields.io/badge/MLflow-6366f1?style=for-the-badge&logo=mlflow&logoColor=white) ![Airflow](https://img.shields.io/badge/Airflow-6366f1?style=for-the-badge&logo=airflow&logoColor=white) 
 
 ### 📊 GitHub Analytics
 
 <p align="center">
-  <img src="https://github-readme-stats-ten-kohl-77.vercel.app/api?username=alexrivera-ai&show_icons=true&theme=dracula" alt="GitHub Stats" />
-  <img src="https://github-readme-stats-ten-kohl-77.vercel.app/api/top-langs/?username=alexrivera-ai&layout=compact&theme=dracula" alt="Top Languages" />
+  <img src="https://github-readme-stats-ten-kohl-77.vercel.app/api?username=alexrivera-ai&show_icons=true&theme=dark" alt="GitHub Stats" />
+  <img src="https://github-readme-stats-ten-kohl-77.vercel.app/api/top-langs/?username=alexrivera-ai&layout=compact&theme=dark" alt="Top Languages" />
 </p>
 
 ### 💡 Expertise
-API Design & Service Architecture — I design versioned REST and gRPC interfaces with clear resource boundaries, pagination rules, and error contracts that clients can depend on for years.
+Predictive Modeling & Machine Learning — I build and tune supervised models for tabular, time-series, and text problems, from regularized GLMs and gradient-boosted trees to fine-tuned transformers, with disciplined cross-validation and probability calibration.
 
-Data Modeling & Query Performance — I normalize schemas for correctness, then earn the speed back with the right indexes, query plans, and connection pooling rather than premature caching.
+Experimentation & Causal Inference — I design and analyze A/B tests, switchback trials, and quasi-experiments using CUPED, difference-in-differences, and uplift modeling to separate real treatment effects from selection and seasonality.
 
-Distributed Systems & Async Messaging — I build event-driven flows with Kafka and queue-backed workers using the outbox pattern, idempotent consumers, and retry policies that survive partial failure.
+Feature Engineering & Data Pipelines — I turn raw event and transactional data into reproducible, point-in-time-correct feature sets with SQL, Spark, and orchestrated Airflow DAGs that the same code can serve at training and inference time.
 
-Reliability & Observability — I instrument services with structured logs, traces, and RED metrics and run them against explicit SLOs, so incidents are diagnosed in minutes instead of guessed at for hours.
+Model Deployment & Monitoring — I package models behind versioned APIs in Docker, track runs and artifacts in MLflow, and instrument drift, calibration, and latency alerts so degradation is caught before stakeholders notice it.
 
 ### 🚀 Featured Projects
-Ledger API — Replaced N+1 ORM access with cursor pagination and covering indexes, dropping p99 read latency from 840 ms to 96 ms across a 12M-row transaction table.
+Churn Uplift Model — Two-model uplift learner (T-learner over XGBoost) trained on 480K subscriber histories that raised retention-campaign ROI 31% while targeting half as many customers.
 
-Rate Limiter — Redis sliding-window limiter written in Go with atomic Lua scripts, sustaining 45k requests/sec at under 1 ms of added overhead per call.
+Demand Forecasting — LightGBM ensemble with a seasonal-naive baseline across 1,200 SKU-store pairs cut weekly forecast MAPE from 18.4% to 9.7% and released $240K of safety stock.
 
-Order Events — Kafka consumer group using the transactional outbox pattern and idempotency keys, delivering 3.2M order events per day with zero duplicate charges over nine months.
+Feature Store — Airflow and Feast pipeline serving 340 point-in-time-correct features that reduced training-set assembly from 6 hours to 11 minutes and eliminated three known leakage paths.
 
-Auth Gateway — OAuth2 service with rotating JWTs and edge-cached JWKS verification, cutting auth-related database load by 78% and login p95 from 410 ms to 120 ms.
+Sequential A/B Engine — mSPRT sequential testing with CUPED variance reduction shortened median experiment runtime from 21 to 12 days at unchanged 80% power and 5% false-positive rate.
 
-Job Runner — Postgres SKIP LOCKED work queue that processes 12k jobs per minute on four workers and retired a managed queue subscription costing $1,400/month.
+Ticket Triage NLP — Fine-tuned DistilBERT classifier over 90K support tickets reached 0.91 macro-F1 and auto-routes 62% of inbound volume at 34 ms p95 inference on CPU.
 
-Cluster Autoscaler — KEDA autoscaling driven by queue depth instead of CPU, trimming Kubernetes spend 41% ($3,800/month) while holding p95 processing time under 200 ms.
+Fraud Anomaly Detection — Isolation Forest combined with graph-derived device and payee features catches 87% of confirmed payment fraud at a 0.4% false-positive rate, avoiding roughly $1.1M in annual losses.
 
 ### 🌐 Connect With Me
 
